@@ -1,3 +1,7 @@
+import {createGlobalStyle} from 'styled-components';
+
+
+const GlobalStyles = createGlobalStyle`
 
 :root{
   /* Define css variables */
@@ -32,4 +36,10 @@ code {
   color: red;
 }
 
+.btn{
+   width: 10rem;
+}
 
+`
+
+export default GlobalStyles;
