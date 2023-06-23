@@ -1,9 +1,11 @@
 import React from 'react'
+import Products from "../components/Products";
 
 const ProductExample = props => {
   return (
     <div style={{padding: '2rem'}}>
-      <h2>Products Example </h2>
+      <br></br>
+      <Products />
     </div>
   )
 }

@@ -6,12 +6,11 @@ import {colors} from '../utils';
  * ClassNames inside components won't collide with class name globally on the page. 
  */
 
-export const ComplexTitle = ({title}) => {
+const ComplexTitle = ({title}) => {
   return (
     <Wrapper>
       <h1>{title}</h1>
       <div className="underline"></div>
-      <h2 className='title'>Global class</h2>
     </Wrapper>
   )
 }
@@ -30,3 +29,5 @@ const Wrapper = styled.div`
   }
 
 `;
+
+export default ComplexTitle;
